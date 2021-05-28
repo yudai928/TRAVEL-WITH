@@ -15,11 +15,12 @@
     </div>
 
     <div class="profile-living_area">
+    <i class="fas fa-home"></i>
     <%= @user.living_area %>
   </div>
 
     <div class="profile-self_introduction">
-    <%= @user.self_introduction %>
+    <%= simple_format(@user.self_introduction) %>
   </div>
 
   </div>
