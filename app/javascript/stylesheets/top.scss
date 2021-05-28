@@ -1,0 +1,38 @@
+.jumbotron {
+  background: url("~top.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  border-radius: 0;
+}
+
+.sign-in-user {
+  color: #3336fd;
+  padding: 4px 24px;
+}
+
+.sign-in-guide {
+  color: #33cefd;
+  padding: 4px 24px;
+}
+
+.top-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.top-authentication {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  &__sign-up-btn {
+    background: #3341fd;
+    border-radius: 30px;
+    padding: 4px;
+  }
+}
