@@ -1,7 +1,7 @@
 <div class="sign-in-page">
   <div class="card">
     <div class="card-header">
-      ログインする
+      Welcome back
     </div>
 
     <div class="card-body">
@@ -9,15 +9,15 @@
         <%= render "devise/shared/error_messages", resource: resource %>
 
         <div class="form-group">
-          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "メールアドレス" %>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Mail" %>
         </div>
 
         <div class="form-group">
-          <%= f.password_field :password, autocomplete: "new-password", class: "form-control", placeholder: "パスワード" %>
+          <%= f.password_field :password, autocomplete: "new-password", class: "form-control", placeholder: "Password" %>
         </div>
 
         <div class="sign-in__submit-btn">
-          <%= f.submit "ログイン", class: "btn btn-block text-white" %>
+          <%= f.submit "Log in", class: "btn btn-block text-white" %>
         </div>
       <% end %>
 
