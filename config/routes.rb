@@ -8,5 +8,6 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show]
   resources :guides, only: [:show]
+  resources :choices, only: [:index]
   resources :matchings, only: [:index]
 end
