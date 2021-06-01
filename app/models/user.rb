@@ -6,7 +6,6 @@ class User < ApplicationRecord
 
   validates :nickname, presence: true
   validates :living_area, presence: true
-  validates :self_introduction, length: { maximum: 500 }
 
   mount_uploader :profile_image, ProfileImageUploader
 

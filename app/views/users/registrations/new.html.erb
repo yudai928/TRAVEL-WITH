@@ -1,48 +1,76 @@
 <!doctype html>
 <html lang="ja" >
   <head>
-    <title>Floating labels example for Bootstrap · Bootstrap</title>
+    <title>Create Account</title>
   </head>
   <body >
     <a id="skippy" class="sr-only sr-only-focusable" href="#content">
   <div class="container">
-    <span class="skiplink-text">Skip to main content</span>
+    <span class="skiplink-text">Create Account</span>
   </div>
 </a>
 
-    <form class="form-signin">
   <div class="text-center mb-4">
-    <h1 class="h3 mb-3 font-weight-normal">Floating labels</h1>
-    <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="#">Works in latest Chrome, Safari, and Firefox.</a></p>
+    <h1 class="h3 mb-3 font-weight-normal">新規アカウント作成（）</h1>
+    <p>説明 ２<a href="#">サポーターになりたい方はこちら</a></p>
   </div>
 
-  <div class="form-label-group">
-    <input type="nickname" id="inputNickname" class="form-control" placeholder="ニックネーム" required autofocus>
-    <label for="inputNickname">ニックネーム</label>
-  </div>
+   <div class="form-signup">
+   <%= form_with scope: resource, as: resource_name, url: registration_path(resource_name), local: true do |f| %>
+    <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="form-label-group">
-    <input type="living_area" id="inputLivingArea" class="form-control" placeholder="居住地" required autofocus>
-    <label for="inputLivingArea">居住地</label>
-  </div>
-
-  <div class="form-label-group">
-    <input type="email" id="inputEmail" class="form-control" placeholder="メールアドレス" required autofocus>
-    <label for="inputEmail">メールアドレス</label>
-  </div>
-
-  <div class="form-label-group">
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-    <label for="inputPassword">パスワード</label>
-  </div>
-
-  <div class="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="remember-me"> Remember me
+   <div class="profile">
+    <img id="profile-img-prev" src="#" class='hidden' />
+    <% if @user.profile_image.url.nil? %>
+      <div class="profile-default-img"></div>
+    <% else %>
+      <%= image_tag @user.profile_image.url, class: "profile-img", id: "profile-img" %>
+    <% end %>
+    <label class="profile-img-upload">
+      <%= f.file_field :profile_image, id: "profile_image_upload" %>ファイルを選択
     </label>
   </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+<div class="form-label-group">
+<div class='form-text-wrap'>
+  <label class="form-text">ニックネーム</label>
+   <%= f.text_field :nickname, class:"form-control", id:"inputNickname", placeholder:"例）旅サル", maxlength:"40" %>
+  </div>
+
+  <div class="form-label-group">
+  <div class='form-text-wrap'>
+  <label class="form-text">居住地</label>
+    <%= f.text_field :living_area, class:"form-control", id:"inputLivingArea", placeholder:"例）沖縄" %>
+  </div>
+
+
+  <div class="form-label-group">
+  <div class='form-text-wrap'>
+  <label class="form-text">メールアドレス</label>
+    <%= f.email_field :email, class:"form-control", id:"inputEmail", placeholder:"PC・携帯どちらでも可", autofocus: true %>
+  </div>
+
+
+  <div class="form-label-group">
+  <div class='form-text-wrap'>
+  <label class="form-text">パスワード</label>
+    <%= f.password_field :password, class:"form-control", id:"inputPassword", placeholder:"6文字以上の半角英数字" %>
+  </div>
+
+  <div class="form-label-group">
+  <div class='form-text-wrap'>
+  <label class="form-text">パスワード(確認）</label>
+    <%= f.password_field :password_confirmation, class:"form-control", id:"inputPasswordConfirmation", placeholder:"同じパスワードを入力して下さい" %>
+  </div>
+
+<div class="form-label-group">
+ <div class="sign-up">
+  <div class="checkbox mb-3">
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">アカウントを作成する</button>
   <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2018</p>
+</div>
+<% end %>
 </form>
-  </body>
+</body>
 </html>
