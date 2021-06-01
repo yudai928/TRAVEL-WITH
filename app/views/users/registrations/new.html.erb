@@ -37,12 +37,17 @@
    <%= f.text_field :nickname, class:"form-control", id:"inputNickname", placeholder:"例）旅サル", maxlength:"40" %>
   </div>
 
-  <div class="form-label-group">
-  <div class='form-text-wrap'>
+ <div class="form-label-group">
+ <div class='form-text-wrap'>
   <label class="form-text">居住地</label>
-    <%= f.text_field :living_area, class:"form-control", id:"inputLivingArea", placeholder:"例）沖縄" %>
-  </div>
+  <%= f.collection_select(:location, Location.all, :id, :name, {}, {class:"form-control", id:"inputLocation"}) %>
+   </div>
 
+<div class="form-label-group">
+ <div class='form-text-wrap'>
+  <label class="form-text">（任意）</label>
+   <%= f.text_field :living_area, class:"form-control", id:"inputLivingArea", placeholder:"例) 鎌倉市" %>
+  </div>
 
   <div class="form-label-group">
   <div class='form-text-wrap'>

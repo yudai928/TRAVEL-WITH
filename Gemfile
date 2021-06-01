@@ -58,3 +58,5 @@ gem 'devise'
 gem 'carrierwave', '~> 2.0'
 
 gem "mini_magick"
+
+gem 'active_hash'
