@@ -14,9 +14,20 @@
       <%= @user.nickname %>
     </div>
 
+    <div class="profile-location mt-4">
+      <%= @user.location %>
+    </div>
+
     <div class="profile-living_area">
-    <i class="fas fa-home"></i>
     <%= @user.living_area %>
+  </div>
+
+  <div class="profile-interested">
+    <%= @user.interested %>
+  </div>
+
+  <div class="profile-recommendation">
+    <%= @user.recommendation %>
   </div>
 
     <div class="profile-self_introduction">
