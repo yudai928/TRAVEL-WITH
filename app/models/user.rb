@@ -1,11 +1,9 @@
 class User < ApplicationRecord
+
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  belongs_to :prefecture, optional: true
-
-  has_many :users
-
+  belongs_to :location, optional: true
 
   validates :nickname, presence: true
   validates :living_area, presence: true

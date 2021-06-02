@@ -3,7 +3,6 @@
   <%= render "partial/navbar" %>
 
   <div class="profile mt-4">
-
     <% if @user.profile_image.url.nil? %>
       <div class="profile-default-img"></div>
     <% else %>
@@ -15,25 +14,24 @@
     </div>
 
     <div class="profile-location mt-4">
-      <%= @user.location_id %>
+      <%= @user.location.name if @user.location_id? %>
     </div>
 
     <div class="profile-living_area">
     <%= @user.living_area %>
-  </div>
+    </div>
 
-  <div class="profile-interested">
+    <div class="profile-interested">
     <%= @user.interested %>
-  </div>
+    </div>
 
-  <div class="profile-recommendation">
+    <div class="profile-recommendation">
     <%= @user.recommendation %>
-  </div>
+    </div>
 
     <div class="profile-self_introduction">
     <%= simple_format(@user.self_introduction) %>
-  </div>
-
+    </div>
   </div>
 
   <% if current_user.id == @user.id %>
