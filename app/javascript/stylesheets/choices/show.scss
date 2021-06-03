@@ -41,7 +41,7 @@
       color: #616161;
     }
     &-introduction {
-      margin-left: 30px;
+      margin-left: 12px;
       font-weight: bold;
       color: #616161;
     }
@@ -52,4 +52,12 @@
   background-color: #FD3378;
   border-radius: 30px;
   font-size: 12px;
+}
+
+@media (min-width: 414px) {
+  .matching-index-page {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 8px auto;
+  }
 }

@@ -4,6 +4,9 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   belongs_to :location, optional: true
+  has_many :chat_room_users
+  has_many :chat_rooms, through: :chat_room_users
+  has_many :chat_messages
 
   validates :nickname, presence: true
   validates :living_area, presence: true

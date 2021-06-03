@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   resources :guides, only: [:show]
   resources :choices, only: [:index, :show]
   resources :matchings, only: [:show]
+  resources :chat_rooms, only: [:create, :show]
 end

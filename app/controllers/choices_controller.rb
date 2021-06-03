@@ -5,7 +5,7 @@ class ChoicesController < ApplicationController
 
   def show
     location = Location.find(params[:id])
-    @users = User.where(location_id: location)
+    @users = User.where(location_id: location).where.not(id: current_user.id)
   end
 
   private

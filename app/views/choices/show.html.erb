@@ -2,10 +2,11 @@
   <%#= render "partial/navbar" %>
 
   <div class="matching">
-    <p class="matching-title ml-3">メッセージ</p>
+    <p class="matching-title ml-3">サポーターとチャットしましょう！</p>
 
     <div class="matching__list">
         <% @users.each do |user| %>
+         <%= link_to chat_rooms_path(params: { user_id: user.id }), method: :post do %>
          <div class="matching__person">
            <% if user.profile_image.url.nil? %>
              <div class="matching__person-default-img"></div>
@@ -21,6 +22,7 @@
            </div>
 
          </div>
+         <% end %>
         <% end %>
     </div>
   </div>

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class MatchingsControllerTest < ActionDispatch::IntegrationTest
+class ChatMessageBroadcastJobTest < ActiveJob::TestCase
   # test "the truth" do
   #   assert true
   # end
