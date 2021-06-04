@@ -1,9 +1,13 @@
 .jumbotop {
-  background: url("~top2.jpg") center no-repeat;
+  background: url("~top.jpeg") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
   border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
 }
 
 .sign-in-user {
@@ -23,7 +27,7 @@
   transform: translate(-50%,-50%);
   letter-spacing: 2px;
   white-space: nowrap;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .top-authentication {
