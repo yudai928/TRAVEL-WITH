@@ -62,3 +62,5 @@ gem "mini_magick"
 gem 'active_hash'
 	
 gem 'seed-fu'
+
+gem 'acts-as-taggable-on', '~> 6.0'

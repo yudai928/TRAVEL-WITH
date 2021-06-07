@@ -4,4 +4,5 @@ class Post < ApplicationRecord
   has_many :photos, dependent: :destroy
 
   accepts_nested_attributes_for :photos
+  acts_as_taggable
 end

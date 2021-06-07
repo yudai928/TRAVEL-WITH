@@ -4,6 +4,9 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.limit(10).includes(:photos, :user).order('created_at DESC')
+    if params[:tag_name]
+      @posts = Post.tagged_with("#{params[:tag_name]}").order('created_at DESC')
+    end
   end
 
   def new
@@ -38,7 +41,7 @@ class PostsController < ApplicationController
 
   private
     def post_params
-      params.require(:post).permit(:caption, photos_attributes: [:image]).merge(user_id: current_user.id)
+      params.require(:post).permit(:caption, :tag_list, photos_attributes: [:image]).merge(user_id: current_user.id)
     end
 
     def set_post

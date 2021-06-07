@@ -34,8 +34,14 @@
           <div><strong>「いいね！」10件</strong></div>
           <div>
             <span><strong><%= post.user.nickname %></strong></span>
-            <span><%= post.caption %></span>
+            <span class="caption-part"><%= post.caption %></span>
+
             <%= link_to time_ago_in_words(post.created_at).upcase + "前", post_path(post), class: "post-time no-text-decoration" %>
+           
+           <div class="tag-list-render">
+            <%= render 'partial/tag_list', tag_list: post.tag_list %>
+            </div>
+
             <hr>
             <div class="row parts">
               <form action="#" class="w-100">

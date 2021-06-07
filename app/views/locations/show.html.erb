@@ -2,7 +2,12 @@
   <%#= render "partial/navbar" %>
 
   <div class="matching">
+   <div class="matching-ad">
+  <%= link_to choices_path, class: "nav-item nav-link" do%>
+      <i class="fas fa-chevron-left"></i>
+    <% end %>
     <p class="matching-title ml-3">サポーターとチャットしましょう！</p>
+  </div>
 
     <div class="matching__list">
         <% @users.each do |user| %>

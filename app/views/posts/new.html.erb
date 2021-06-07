@@ -17,7 +17,12 @@
             <div class="col pl-0">
               <%= f.text_field :caption, class: "form-control border-0", placeholder: "キャプションを書く" %>
             </div>
+
+            <div class="field form-group form-group-lg">
+          <%= f.label :tag_list, class: "sr-only control-label" %>
+         <%= text_field_tag 'post[tag_list]', @post.tag_list.join(","), class: "form-control", placeholder: "鎌倉, 紫陽花, 家族旅行, 暑い," %>
           </div>
+    
 
           <div class="mb-3">
             <%= f.fields_for :photos do |i| %>
