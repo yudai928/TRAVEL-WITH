@@ -1,0 +1,331 @@
+
+<!doctype html>
+<html lang="ja" >
+  <head>
+    <title>Cover Template for Bootstrap · Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body  class="text-center" >
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+  <div class="container">
+    <span class="skiplink-text">Skip to main content</span>
+  </div>
+</a>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Location</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">旅行先を選んでください</h1>
+    <div id="japan-map" class="clearfix">
+
+<div id="hokkaido-touhoku" class="clearfix">
+	<p class="area-title">北海道・東北</p>
+	<div class="area">
+		<%= link_to(location_path(id: 1 ), class: "hokkaido") do %>
+      <div id="hokkaido">
+        <p>北海道</p>
+    	</div>
+		<% end %>
+		<%= link_to(location_path(id: 2 ), class: "aomori") do %>
+			<div id="aomori">
+				<p>青森</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 3 ), class: "akita") do %>
+			<div id="akita">
+				<p>秋田</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 4 ), class: "iwate") do %>
+			<div id="iwate">
+				<p>岩手</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 5 ), class: "yamagata") do %>
+			<div id="yamagata">
+				<p>山形</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 6 ), class: "miyagi") do %>
+			<div id="miyagi">
+				<p>宮城</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 7 ), class: "fukushima") do %>
+			<div id="fukushima">
+				<p>福島</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<div id="kantou">
+	<p class="area-title">関東</p>
+	<div class="area">
+		<%= link_to(location_path(id: 8 ), class: "gunma") do %>
+			<div id="gunma">
+				<p>群馬</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 9 ), class: "tochigi") do %>
+			<div id="tochigi">
+				<p>栃木</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 10 ), class: "ibaraki") do %>
+			<div id="ibaraki">
+				<p>茨城</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 11 ), class: "sairama") do %>
+			<div id="saitama">
+				<p>埼玉</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 12 ), class: "chiba") do %>
+			<div id="chiba">
+				<p>千葉</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 13 ), class: "tokyo") do %>
+			<div id="tokyo">
+				<p>東京</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 14 ), class: "kanagawa") do %>
+			<div id="kanagawa">
+				<p>神奈川</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<div id="tyubu" class="clearfix">
+	<p class="area-title">中部</p>
+	<div class="area">
+		<%= link_to(location_path(id: 15 ), class: "nigata") do %>
+			<div id="nigata">
+				<p>新潟</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 16 ), class: "toyama") do %>
+			<div id="toyama">
+				<p>富山</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 17 ), class: "ishikawa") do %>
+			<div id="ishikawa">
+				<p>石川</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 18 ), class: "fukui") do %>
+			<div id="fukui">
+				<p>福井</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 19), class: "nagano") do %>
+			<div id="nagano">
+				<p>長野</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 20), class: "gihu") do %>
+			<div id="gifu">
+				<p>岐阜</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 21), class: "yamanashi") do %>
+			<div id="yamanashi">
+				<p>山梨</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 22), class: "aichi") do %>
+			<div id="aichi">
+				<p>愛知</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 23), class: "shizuoka") do %>
+			<div id="shizuoka">
+				<p>静岡県</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<div id="kinki" class="clearfix">
+	<p class="area-title">近畿</p>
+	<div class="area">
+		<%= link_to(location_path(id: 24), class: "kyoto") do %>
+			<div id="kyoto">
+				<p>京都</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 25), class: "shiga") do %>
+			<div id="shiga">
+				<p>滋賀</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 26), class: "osaka") do %>
+			<div id="osaka">
+				<p>大阪</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 27), class: "nara") do %>
+			<div id="nara">
+				<p>奈良</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 28), class: "mie") do %>
+			<div id="mie">
+				<p>三重</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 29), class: "wakayama") do %>
+			<div id="wakayama">
+				<p>和歌山</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 30), class: "hyogo") do %>
+			<div id="hyougo">
+				<p>兵庫</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<div id="tyugoku" class="clearfix">
+	<p class="area-title">中国</p>
+	<div class="area">
+		<%= link_to(location_path(id: 31), class: "tottori") do %>
+			<div id="tottori">
+				<p>鳥取</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 32), class: "okayama") do %>
+			<div id="okayama">
+				<p>岡山</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 33), class: "shimane") do %>
+			<div id="shimane">
+				<p>島根</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 34), class: "hiroshima") do %>
+			<div id="hiroshima">
+				<p>広島</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 35), class: "yamaguchi") do %>
+			<div id="yamaguchi">
+				<p>山口</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<div id="shikoku" class="clearfix">
+	<p class="area-title">四国</p>
+	<div class="area">
+		<%= link_to(location_path(id: 36), class: "kagawa") do %>
+			<div id="kagawa">
+				<p>香川</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 37), class: "ehime") do %>
+			<div id="ehime">
+				<p>愛媛</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 38), class: "tokushima") do %>
+			<div id="tokushima">
+				<p>徳島</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 39), class: "kouchi") do %>
+			<div id="kouchi">
+				<p>高地</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<div id="kyusyu" class="clearfix">
+	<p class="area-title">九州・沖縄</p>
+	<div class="area">
+		<%= link_to(location_path(id: 40), class: "fukuoka") do %>
+			<div id="fukuoka">
+				<p>福岡</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 41), class: "saga") do %>
+			<div id="saga">
+				<p>佐賀</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 42), class: "nagasaki") do %>
+			<div id="nagasaki">
+				<p>長崎</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 43), class: "oita") do %>
+			<div id="oita">
+				<p>大分</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 44), class: "kumamoto") do %>
+			<div id="kumamoto">
+				<p>熊本</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 45), class: "miyazaki") do %>
+			<div id="miyazaki">
+				<p>宮崎</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 46), class: "kagoshima") do %>
+			<div id="kagoshima">
+				<p>鹿児島</p>
+			</div>
+		<% end %>
+		<%= link_to(location_path(id: 47), class: "okinawa") do %>
+			<div id="okinawa">
+				<p>沖縄</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+</div> 
+
+  <%= link_to "もどる", choices_path, class: "btn btn-secondary" %>
+    </p>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+    </div>
+  </footer>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>
+  window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script><script src="/docs/4.3/assets/js/vendor/anchor.min.js"></script>
+<script src="/docs/4.3/assets/js/vendor/clipboard.min.js"></script>
+<script src="/docs/4.3/assets/js/vendor/bs-custom-file-input.min.js"></script>
+<script src="/docs/4.3/assets/js/src/application.js"></script>
+<script src="/docs/4.3/assets/js/src/search.js"></script>
+<script src="/docs/4.3/assets/js/src/ie-emulation-modes-warning.js"></script>
+  </body>
+</html>
