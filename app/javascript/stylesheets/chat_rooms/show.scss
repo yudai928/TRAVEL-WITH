@@ -1,5 +1,5 @@
 .chat-room-show-page {
-  max-width: 414px;
+  max-width: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -89,10 +89,10 @@ textarea:focus {
   outline: none;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 500px) {
   .chat-room-show-page {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-    margin: 8px auto;
+    margin: 50px auto;
   }
 }

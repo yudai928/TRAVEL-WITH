@@ -1,12 +1,12 @@
-<div class="matching-index-page">
-  <%#= render "partial/navbar" %>
+<%= render "partial/navbar" %>
 
+<div class="matching-index-page">
   <div class="matching">
    <div class="matching-ad">
-  <%= link_to choices_path, class: "nav-item nav-link" do%>
+  <%= link_to locations_path, class: "nav-item nav-link" do%>
       <i class="fas fa-chevron-left"></i>
+      <p class="matching-title ml-3">サポーターとチャットしましょう！</p>
     <% end %>
-    <p class="matching-title ml-3">サポーターとチャットしましょう！</p>
   </div>
 
     <div class="matching__list">

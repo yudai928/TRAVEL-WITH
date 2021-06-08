@@ -5,6 +5,9 @@ body {
   color: #5a5a5a;
 }
 
+.app-title {
+  font-size: 100px;
+}
 
 .carousel {
   margin-bottom: 4rem;
@@ -16,7 +19,7 @@ body {
 }
 
 .carousel-item {
-  height: 32rem;
+  height: 80rem;
   background-color: #777;
 }
 .carousel-item > img {

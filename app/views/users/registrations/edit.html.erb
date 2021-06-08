@@ -37,14 +37,6 @@
       <%= f.text_field :living_area, class: "form-control", placeholder: "鎌倉市" %>
     </div>
 
-
-  <div class="weight-bold-text">おすすめ観光地・ジャンル</div>
-  <div class="field form-group form-group-lg">
-    <%= f.label :recommendation_list, class: "sr-only control-label" %>
-     <%= text_field_tag 'user[recommendation_list]', @user.recommendation_list.join(","), class: "form-control", placeholder: "九州, 博多, カップル旅行, 甘いもの, 絶景 " %>
-      </div>
-
-
     <div class="weight-bold-text">おすすめの観光地</div>
     <div class="form-group">
       <%= f.text_area :recommendation, class: "form-control", placeholder: "例) 高山〜白川郷〜金沢のルート！5回以上行きましたが、四季折々行く時々で景色と町並みが変わるので何度行っても飽きません。" %>

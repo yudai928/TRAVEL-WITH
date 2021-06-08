@@ -21,8 +21,6 @@
     <%= @user.living_area %>
     </div>
 
-    <%= render 'partial/user_tag_list', recommendation_list: @user.recommendation_list %>
-
     <div class="profile-interested">
     <%= @user.interested %>
     </div>
@@ -52,7 +50,17 @@
         <% end %>
         <span>情報を編集<span>
       </div>
+      <% else %>
+
+    <div class="user-action-common"> 
+     <div class="chatpage">
+      <%= link_to chat_rooms_path(params: { user_id: @user.id }), method: :post do %>
+        <i class="fas fa-comments fa-2x"></i>
+      <% end %>
+      <span>チャットする</span>
+       </div>
     </div>
+  </div>
   <% end %>
 
 </div>

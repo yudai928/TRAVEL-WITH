@@ -1,9 +1,12 @@
+<%= render "partial/navbar" %>
+
 <div class="chat-room-show-page">
   <nav class="navbar navbar-light chat-room__header">
-    <%= link_to location_path(@chat_room_user.location_id), class: "nav-item nav-link" do%>
+    <%= link_to :back, class: "nav-item nav-link" do%>
       <i class="fas fa-chevron-left"></i>
     <% end %>
 
+<%= link_to user_path(@chat_room_user.id), class: "no-text-decoration" do %>
     <div class="chat-room__partner">
       <span class="chat-room__partner-name">
         <%= @chat_room_user.nickname %>
@@ -15,6 +18,7 @@
         <%= image_tag @chat_room_user.profile_image.url, class: "chat-room__partner-img" %>
       <% end %>
     </div>
+   <% end %>
   </nav>
 
   <div id='chat-messages'>
