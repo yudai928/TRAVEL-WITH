@@ -5,8 +5,11 @@ Rails.application.routes.draw do
   root 'top#index'
 
   resources :users, only: [:show]
+
   resources :posts, only: [:index, :new, :create, :show, :destroy] do
     resources :photos, only: :create
+    resources :likes, only: [:create, :destroy]
+    resources :comments, only: [:create, :destroy]
   end
   resources :choices, only: [:index]
   resources :locations, only: [:index, :show]

@@ -21,6 +21,8 @@
     <%= @user.living_area %>
     </div>
 
+    <%= render 'partial/user_tag_list', recommendation_list: @user.recommendation_list %>
+
     <div class="profile-interested">
     <%= @user.interested %>
     </div>
