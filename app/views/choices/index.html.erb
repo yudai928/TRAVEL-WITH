@@ -10,32 +10,44 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="first-slide" src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1105&q=80" alt="First slide">
+        <img class="first-slide" src="https://images.unsplash.com/photo-1560865612-70efb2c7fd57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="First slide">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>京都 / 嵐山 竹林の道</h1>
-            <p>竹林の道（ちくりんのみち）は、大河内山荘から野宮神社の間を約200メートルにわたって続く風情のある小道です。周辺には嵐山や世界遺産の天龍寺などがあります。竹林の道は京都嵐山の代表的な観光名所のひとつで、嵐山を訪れた際には是非立ち寄って頂きたい観光スポットです。</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">ガイドを探す</a></p>
+            <h1>岐阜 / 白川郷</h1>
+            <p>白川郷にまだ行ったことのないそこのあなた、ぜひ来てください！美しい日本の原風景を歩き、タイムスリップを味わえますよ。映画「君の名は」の舞台も白川郷という噂も？チャット・通話・対面ガイド可能です！</p>
+            <%= link_to user_path(@supporter1.id), class: "no-text-decoration" do %>
+            <%= image_tag @supporter1.profile_image.url, class: "profile-img" %>
+            <a >by</a>
+            <strong><%= @supporter1.nickname %></strong>
+            <% end %>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="second-slide" src="https://images.unsplash.com/photo-1604928141064-207cea6f571f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80" alt="Second slide">
+        <img class="second-slide" src="https://images.pexels.com/photos/5220043/pexels-photo-5220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Second slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <h1>東京 / 浅草</h1>
+            <p>浅草なんてど定番！飽きたわ！なんて言わず、ぜひ新鮮な気持ちでもう一回来てください。浅草で生まれ育った生粋の浅草人が、真の浅草の楽しみ方をお伝えします！</p>
+             <%= link_to user_path(@supporter2.id), class: "no-text-decoration" do %>
+            <%= image_tag @supporter2.profile_image.url, class: "profile-img" %>
+            <a>by</a>
+            <strong><%= @supporter2.nickname %></strong>
+            <% end %>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="third-slide" src="https://images.unsplash.com/photo-1560865612-70efb2c7fd57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Third slide">
+        <img class="third-slide" src="https://images.pexels.com/photos/6249097/pexels-photo-6249097.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Third slide">
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <h1>京都 / 渡月橋</h1>
+            <p>京都は行ったことあるけど、嵐山に来たことがないという方多いと思います。魅力が詰まったこの土地、ぜひおこしください。英語通訳案内士として働いているので、外国人目線でうけの良いスポットも紹介します。</p>
+             <%= link_to user_path(@supporter3.id), class: "no-text-decoration" do %>
+            <%= image_tag @supporter3.profile_image.url, class: "profile-img" %>
+            <a>by</a>
+            <strong><%= @supporter3.nickname %></strong>
+            <% end %>
           </div>
         </div>
       </div>
@@ -56,38 +68,37 @@
 
 		    <div class="row">
       <div class="col-lg-4">
-        <img class="rounded-circle" src="https://cdn.pixabay.com/photo/2018/06/15/10/37/map-3476649_1280.jpg" alt="Generic placeholder image" width="140" height="140">
-        <h2>Location</h2>
-        <p>現地に住むサポーターと繋がりましょう！</p>
-				<p>地元民ならではの視点で旅行先の魅力、穴場スポットなど、ローカルな旅行をしたい方はこちら</p>
+        <img class="rounded-circle" src="https://cdn.pixabay.com/photo/2015/03/27/00/09/puzzle-693870_1280.jpg" alt="Generic placeholder image" width="140" height="140">
+        <h2>Before</h2>
+        <h5>①サポーターを見つけましょう！</h5>
+        <p>全国各地にあなたのサポーターがいます</p>
 				<%= link_to "選択", locations_path, class: "btn btn-secondary" %>
       </div>
       <div class="col-lg-4">
-        <img class="rounded-circle" src="https://cdn.pixabay.com/photo/2013/03/02/02/41/art-89198_1280.jpg" alt="Generic placeholder image" width="140" height="140">
-        <h2>Tag</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img class="rounded-circle" src="https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_1280.jpg" alt="Generic placeholder image" width="140" height="140">
+        <h2>During</h2>
+        <h5>②旅の思い出を投稿しましょう！</h5>
+        <p>あなたの投稿が誰かの旅のアイディアへ</p>
+        <%= link_to "選択", posts_path, class: "btn btn-secondary" %>
       </div>
       <div class="col-lg-4">
-        <img class="rounded-circle" src="https://images.unsplash.com/photo-1508004526072-3be43a5005f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="Generic placeholder image" width="140" height="140">
-        <h2>Post</h2>
-        <p>旅の思い出をシェアしよう！</p>
-				<p>全国各地のユーザーの旅中の写真や記事を見ましょう！次の旅行のアイディアを探すのもよし、興味のあるサポーターを探し相談するのもいいですね</p>
-        <%= link_to "選択", posts_path, class: "btn btn-secondary" %>
+        <img class="rounded-circle" src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Generic placeholder image" width="140" height="140">
+        <h2>After</h2>
+        <h5>③サポーターになりましょう！</h5>
+				<p>次はあなたがサポーターへ！</p>
+        <%= link_to "選択", user_path(current_user.id), class: "btn btn-secondary" %>
     </div>
 
-
-    <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Find best supporter <span class="text-muted">around the country.</span></h2>
+        <p class="lead">旅行先を検索し、あなたの旅のコンセプトにぴったりのサポーターを見つけてください。一人旅から家族旅行、定番スポットから穴場スポット、現地に住むサポーターがあなたの旅に寄り添う提案をします。</p>
       </div>
       <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto" src="https://images.pexels.com/photos/2672979/pexels-photo-2672979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -95,11 +106,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Enjoy the travel <span class="text-muted">and share your memories.</span></h2>
+        <p class="lead">旅の思い出の写真を投稿しましょう！あなたの投稿が誰かの旅のアイディアになります。様々なユーザーと出会い交流しましょう。あなたの思い出が誰かの次の旅のきっかけになります。</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto" src="https://images.unsplash.com/photo-1508004526072-3be43a5005f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -107,25 +118,21 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Lastly, join as supporter<span class="text-muted">and support next travellers!</span></h2>
+        <p class="lead">今度はあなたがサポーターです。行った場所をクリップし、旅行者の相談に乗りましょう！</p>
       </div>
       <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto" src="https://images.pexels.com/photos/3009755/pexels-photo-3009755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Generic placeholder image">
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
 
-  </div><!-- /.container -->
+  </div>
 
 
-  <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 <script src="../../assets/js/vendor/holder.min.js"></script>
