@@ -28,9 +28,37 @@
 
 # 実施した機能のGIF
 ## ユーザー新規登録
+[![Image from Gyazo](https://i.gyazo.com/8e82e85e7af0591ea4307f96a6146564.gif)](https://gyazo.com/8e82e85e7af0591ea4307f96a6146564)
 
+## ユーザーログイン
+[![Image from Gyazo](https://i.gyazo.com/5c7255b1116f433b2a3dfcb355ed5fec.gif)](https://gyazo.com/5c7255b1116f433b2a3dfcb355ed5fec)
 
+## ユーザープロフィール表示
+[![Image from Gyazo](https://i.gyazo.com/927c24d3f9e7a05db255e5fdec3b5093.gif)](https://gyazo.com/927c24d3f9e7a05db255e5fdec3b5093)
 
+## ユーザープロフィール編集
+[![Image from Gyazo](https://i.gyazo.com/69fc951352fb672b183a1f432fca3080.gif)](https://gyazo.com/69fc951352fb672b183a1f432fca3080)
+
+## ユーザー検索機能
+[![Image from Gyazo](https://i.gyazo.com/5e2ab211c49faf80fb3267b1159be4ce.gif)](https://gyazo.com/5e2ab211c49faf80fb3267b1159be4ce)
+
+## チャット機能
+[![Image from Gyazo](https://i.gyazo.com/014918f1e52deb4e40157e0f45984f10.gif)](https://gyazo.com/014918f1e52deb4e40157e0f45984f10)
+
+## 投稿一覧
+[![Image from Gyazo](https://i.gyazo.com/3396a96d1939e05e033bb3f19a64bed9.gif)](https://gyazo.com/3396a96d1939e05e033bb3f19a64bed9)
+
+## 投稿詳細
+[![Image from Gyazo](https://i.gyazo.com/7eabea86456f61133bd39776d5fe968f.gif)](https://gyazo.com/7eabea86456f61133bd39776d5fe968f)
+
+## 新規投稿
+[![Image from Gyazo](https://i.gyazo.com/b754a65ec472b7ec2daa8f044ee86e38.gif)](https://gyazo.com/b754a65ec472b7ec2daa8f044ee86e38)
+
+## コメント機能
+[![Image from Gyazo](https://i.gyazo.com/9a3a3cbd124e4e1a64ddf08d641b69ae.gif)](https://gyazo.com/9a3a3cbd124e4e1a64ddf08d641b69ae)
+
+## タグ絞り込み機能
+[![Image from Gyazo](https://i.gyazo.com/33db291294b5d8fbba3b6450a56aaeb3.gif)](https://gyazo.com/33db291294b5d8fbba3b6450a56aaeb3)
 
 
 # ER図
