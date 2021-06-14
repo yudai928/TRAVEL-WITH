@@ -14,4 +14,7 @@ Rails.application.routes.draw do
   resources :choices, only: [:index]
   resources :locations, only: [:index, :show]
   resources :chat_rooms, only: [:create, :show]
+
+  mount ActionCable.server => '/cable'
+  
 end
