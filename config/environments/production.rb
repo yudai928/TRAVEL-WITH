@@ -43,6 +43,13 @@ Rails.application.configure do
   # config.action_cable.url = 'wss://example.com/cable'
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
 
+<<<<<<< HEAD
+=======
+ActionCable.server.config.disable_request_forgery_protection = true
+config.action_cable.url = 'ws://35.73.106.104/cable'
+config.action_cable.allowed_request_origins = [ 'http://35.73.106.104' ]  
+
+>>>>>>> parent of 1870458 (自動デプロイの設定)
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
