@@ -45,7 +45,7 @@ Rails.application.configure do
 
 ActionCable.server.config.disable_request_forgery_protection = true
 config.action_cable.url = 'ws://35.73.106.104/cable'
-config.action_cable.allowed_request_origins = [ 'http://35.73.106.104' ]  
+config.action_cable.allowed_request_origins = ['http://35.73.106.104']  
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
