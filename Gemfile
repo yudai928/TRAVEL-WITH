@@ -73,3 +73,9 @@ gem 'active_hash'
 gem 'seed-fu'
 
 gem 'acts-as-taggable-on', '~> 6.0'
+
+gem "aws-sdk-s3", require: false
+
+gem 'fog-aws'
+
+gem 'dotenv-rails'
