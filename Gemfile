@@ -73,7 +73,3 @@ gem 'active_hash'
 gem 'seed-fu'
 
 gem 'acts-as-taggable-on', '~> 6.0'
-
-gem 'dotenv-rails'
-
-gem 'fog-aws'
