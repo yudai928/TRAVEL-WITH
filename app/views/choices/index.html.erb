@@ -15,11 +15,11 @@
           <div class="carousel-caption text-left">
             <h1>岐阜 / 白川郷</h1>
             <p>白川郷にまだ行ったことのないそこのあなた、ぜひ来てください！美しい日本の原風景を歩き、タイムスリップを味わえますよ。映画「君の名は」の舞台も白川郷という噂も？チャット・通話・対面ガイド可能です！</p>
-            <%#= link_to user_path(@supporter1.id), class: "no-text-decoration" do %>
-            <%#= image_tag @supporter1.profile_image.url, class: "profile-img" %>
+            <%= link_to user_path(@supporter1.id), class: "no-text-decoration" do %>
+            <%= image_tag @supporter1.profile_image.url, class: "profile-img" %>
             <a >by</a>
-            <strong><%#= @supporter1.nickname %></strong>
-            <%# end %>
+            <strong><%= @supporter1.nickname %></strong>
+            <% end %>
           </div>
         </div>
       </div>
@@ -29,11 +29,11 @@
           <div class="carousel-caption">
             <h1>東京 / 浅草</h1>
             <p>浅草なんてど定番！飽きたわ！なんて言わず、ぜひ新鮮な気持ちでもう一回来てください。浅草で生まれ育った生粋の浅草人が、真の浅草の楽しみ方をお伝えします！</p>
-             <%#= link_to user_path(@supporter2.id), class: "no-text-decoration" do %>
-            <%#= image_tag @supporter2.profile_image.url, class: "profile-img" %>
+             <%= link_to user_path(@supporter2.id), class: "no-text-decoration" do %>
+            <%= image_tag @supporter2.profile_image.url, class: "profile-img" %>
             <a>by</a>
-            <strong><%#= @supporter2.nickname %></strong>
-            <%# end %>
+            <strong><%= @supporter2.nickname %></strong>
+            <% end %>
           </div>
         </div>
       </div>
@@ -43,11 +43,11 @@
           <div class="carousel-caption text-right">
             <h1>京都 / 渡月橋</h1>
             <p>京都は行ったことあるけど、嵐山に来たことがないという方多いと思います。魅力が詰まったこの土地、ぜひおこしください。英語通訳案内士として働いているので、外国人目線でうけの良いスポットも紹介します。</p>
-             <%#= link_to user_path(@supporter3.id), class: "no-text-decoration" do %>
-            <%#= image_tag @supporter3.profile_image.url, class: "profile-img" %>
+             <%= link_to user_path(@supporter3.id), class: "no-text-decoration" do %>
+            <%= image_tag @supporter3.profile_image.url, class: "profile-img" %>
             <a>by</a>
-            <strong><%#= @supporter3.nickname %></strong>
-            <%# end %>
+            <strong><%= @supporter3.nickname %></strong>
+            <% end %>
           </div>
         </div>
       </div>
