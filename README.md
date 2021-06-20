@@ -158,6 +158,7 @@ http://35.73.106.104:3001/
 ## コメント削除
 
 ## タグ絞り込み機能
+[![Image from Gyazo](https://i.gyazo.com/27f1219283a0963a23ea70b79061a879.gif)](https://gyazo.com/27f1219283a0963a23ea70b79061a879)
 
 ## いいね機能
 [![Image from Gyazo](https://i.gyazo.com/0e33f0527b38f41fd570dc5fd825ea28.gif)](https://gyazo.com/0e33f0527b38f41fd570dc5fd825ea28)
