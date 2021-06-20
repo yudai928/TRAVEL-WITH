@@ -142,19 +142,17 @@ http://35.73.106.104:3001/
 [![Image from Gyazo](https://i.gyazo.com/014918f1e52deb4e40157e0f45984f10.gif)](https://gyazo.com/014918f1e52deb4e40157e0f45984f10)
 
 ## 投稿一覧
-[![Image from Gyazo](https://i.gyazo.com/e7ff79adcd45ad3cbcb3cdcea5b156dc.gif)](https://gyazo.com/e7ff79adcd45ad3cbcb3cdcea5b156dc)
+
 
 ## 投稿詳細
-[![Image from Gyazo](https://i.gyazo.com/7eabea86456f61133bd39776d5fe968f.gif)](https://gyazo.com/7eabea86456f61133bd39776d5fe968f)
+
 
 ## 新規投稿
 [![Image from Gyazo](https://i.gyazo.com/b754a65ec472b7ec2daa8f044ee86e38.gif)](https://gyazo.com/b754a65ec472b7ec2daa8f044ee86e38)
 
 ## コメント機能
-[![Image from Gyazo](https://i.gyazo.com/9a3a3cbd124e4e1a64ddf08d641b69ae.gif)](https://gyazo.com/9a3a3cbd124e4e1a64ddf08d641b69ae)
 
 ## タグ絞り込み機能
-[![Image from Gyazo](https://i.gyazo.com/33db291294b5d8fbba3b6450a56aaeb3.gif)](https://gyazo.com/33db291294b5d8fbba3b6450a56aaeb3)
 
 ## いいね機能
 [![Image from Gyazo](https://i.gyazo.com/0e33f0527b38f41fd570dc5fd825ea28.gif)](https://gyazo.com/0e33f0527b38f41fd570dc5fd825ea28)
