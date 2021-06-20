@@ -150,8 +150,6 @@ http://35.73.106.104:3001/
 ## 新規投稿
 [![Image from Gyazo](https://i.gyazo.com/b754a65ec472b7ec2daa8f044ee86e38.gif)](https://gyazo.com/b754a65ec472b7ec2daa8f044ee86e38)
 
-## 投稿削除
-
 ## コメント機能
 [![Image from Gyazo](https://i.gyazo.com/5ea3ab2da1fbfd7568f7ce8bcf618934.gif)](https://gyazo.com/5ea3ab2da1fbfd7568f7ce8bcf618934)
 
