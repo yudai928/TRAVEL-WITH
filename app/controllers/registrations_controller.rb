@@ -5,9 +5,9 @@ class RegistrationsController < Devise::RegistrationsController
     resource.update_without_current_password(params)
   end
 
-  def after_sign_up_path_for(resource)
+  def after_sign_up_path_for(_resource)
     choices_path
-   end
+  end
 
   def after_update_path_for(resource)
     user_path(resource)
@@ -16,8 +16,11 @@ class RegistrationsController < Devise::RegistrationsController
   protected
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction, :profile_image])
-    devise_parameter_sanitizer.permit(:account_update, keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction, :profile_image])
+    devise_parameter_sanitizer.permit(:sign_up,
+                                      keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction,
+                                             :profile_image])
+    devise_parameter_sanitizer.permit(:account_update,
+                                      keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction,
+                                             :profile_image])
   end
-  
 end

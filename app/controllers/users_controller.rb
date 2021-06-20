@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-
   before_action :authenticate_user!
 
   def show
@@ -10,7 +9,7 @@ class UsersController < ApplicationController
 
   private
 
-    def user_params
-      params.require(:user).permit(:nickname, :location_id)
-    end
+  def user_params
+    params.require(:user).permit(:nickname, :location_id)
+  end
 end

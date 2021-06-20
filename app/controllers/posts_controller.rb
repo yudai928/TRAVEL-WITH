@@ -4,9 +4,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.limit(10).includes(:photos, :user).order('created_at DESC')
-    if params[:tag_name]
-      @posts = Post.tagged_with("#{params[:tag_name]}").order('created_at DESC')
-    end
+    @posts = Post.tagged_with(params[:tag_name].to_s).order('created_at DESC') if params[:tag_name]
   end
 
   def new
@@ -20,10 +18,10 @@ class PostsController < ApplicationController
     if @post.photos.present?
       @post.save
       redirect_to posts_path
-      flash[:notice] = "投稿が保存されました"
+      flash[:notice] = '投稿が保存されました'
     else
       redirect_to posts_path
-      flash[:alert] = "投稿に失敗しました"
+      flash[:alert] = '投稿に失敗しました'
     end
   end
 
@@ -32,20 +30,20 @@ class PostsController < ApplicationController
 
   def destroy
     if @post.user == current_user
-      flash[:notice] = "投稿が削除されました" if @post.destroy
+      flash[:notice] = '投稿が削除されました' if @post.destroy
     else
-      flash[:alert] = "投稿の削除に失敗しました"
+      flash[:alert] = '投稿の削除に失敗しました'
     end
     redirect_to posts_path
   end
 
   private
-    def post_params
-      params.require(:post).permit(:caption, :tag_list, photos_attributes: [:image]).merge(user_id: current_user.id)
-    end
 
-    def set_post
-      @post = Post.find_by(id: params[:id])
-    end
+  def post_params
+    params.require(:post).permit(:caption, :tag_list, photos_attributes: [:image]).merge(user_id: current_user.id)
+  end
 
+  def set_post
+    @post = Post.find_by(id: params[:id])
+  end
 end
