@@ -142,6 +142,7 @@ http://35.73.106.104:3001/
 [![Image from Gyazo](https://i.gyazo.com/014918f1e52deb4e40157e0f45984f10.gif)](https://gyazo.com/014918f1e52deb4e40157e0f45984f10)
 
 ## 投稿一覧
+[![Image from Gyazo](https://i.gyazo.com/541d87840c3c382e932febde46ac13fc.gif)](https://gyazo.com/541d87840c3c382e932febde46ac13fc)
 
 
 ## 投稿詳細
