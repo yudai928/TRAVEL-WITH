@@ -17,10 +17,9 @@ class RegistrationsController < Devise::RegistrationsController
 
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up,
-                                      keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction,
-                                             :profile_image])
+                                      keys: [:nickname, :location_id, :living_area, :profile_image])
     devise_parameter_sanitizer.permit(:account_update,
-                                      keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction,
+                                      keys: [:nickname, :location_id, :living_area, :recommendation, :interested, :self_introduction,
                                              :profile_image])
   end
 end

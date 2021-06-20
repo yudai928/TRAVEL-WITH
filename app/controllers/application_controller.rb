@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
                                       keys: [:nickname, :location_id, :living_area,
                                              :profile_image])
     devise_parameter_sanitizer.permit(:account_update,
-                                      keys: [:nickname, :location_id, :living_area, :recommendation, :self_introduction, :interested, :profile_image])
+                                      keys: [:nickname, :location_id, :living_area, :recommendation, :interested, :self_introduction, :profile_image])
   end
 
   def after_sign_in_path_for(_resource)
