@@ -151,16 +151,13 @@ http://35.73.106.104:3001/
 [![Image from Gyazo](https://i.gyazo.com/b754a65ec472b7ec2daa8f044ee86e38.gif)](https://gyazo.com/b754a65ec472b7ec2daa8f044ee86e38)
 
 ## 投稿削除
-[![Image from Gyazo](https://i.gyazo.com/e5d304b27a2893fa18daecb280986bde.gif)](https://gyazo.com/e5d304b27a2893fa18daecb280986bde)
 
 ## コメント機能
 [![Image from Gyazo](https://i.gyazo.com/5ea3ab2da1fbfd7568f7ce8bcf618934.gif)](https://gyazo.com/5ea3ab2da1fbfd7568f7ce8bcf618934)
 
 ## コメント削除
-[![Image from Gyazo](https://i.gyazo.com/501ce43790416f903b6075e9f1876a2a.gif)](https://gyazo.com/501ce43790416f903b6075e9f1876a2a)
 
 ## タグ絞り込み機能
-[![Image from Gyazo](https://i.gyazo.com/2260512496e23aa474ce07a63a975ce6.gif)](https://gyazo.com/2260512496e23aa474ce07a63a975ce6)
 
 ## いいね機能
 [![Image from Gyazo](https://i.gyazo.com/0e33f0527b38f41fd570dc5fd825ea28.gif)](https://gyazo.com/0e33f0527b38f41fd570dc5fd825ea28)
