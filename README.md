@@ -10,12 +10,8 @@
 [![Image from Gyazo](https://i.gyazo.com/b0b43d175f0380c9af50cb82e48746a7.png)](https://gyazo.com/b0b43d175f0380c9af50cb82e48746a7)
 
 # URL
-http://35.73.106.104:3001/
-
-# デモ
-**テスト用アカウント**
-- ログインID：test@gmail
-- パスワード：test2021
+http://35.73.106.104:3001/  
+`「ゲストログイン（閲覧用）」`からログインできます。
 
 # 利用方法
 ## 登録
