@@ -136,7 +136,7 @@ http://35.73.106.104:3001/
 [![Image from Gyazo](https://i.gyazo.com/927c24d3f9e7a05db255e5fdec3b5093.gif)](https://gyazo.com/927c24d3f9e7a05db255e5fdec3b5093)
 
 ## ログアウト
-[![Image from Gyazo](https://i.gyazo.com/263966463aa49f5a8cf4ecab4a43af43.gif)](https://gyazo.com/263966463aa49f5a8cf4ecab4a43af43)
+![263966463aa49f5a8cf4ecab4a43af43](https://user-images.githubusercontent.com/82750792/122701159-9a88b300-d287-11eb-888e-a59c000eef0b.gif)
 
 ## プロフィール編集
 [![Image from Gyazo](https://i.gyazo.com/69fc951352fb672b183a1f432fca3080.gif)](https://gyazo.com/69fc951352fb672b183a1f432fca3080)
