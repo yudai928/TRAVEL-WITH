@@ -123,16 +123,22 @@ http://35.73.106.104:3001/
 
 
 # 実施した機能のGIF
-## ユーザー新規登録
+## トップページ
+[![Image from Gyazo](https://i.gyazo.com/765ed2c2fb0df8c6b598db08eb6fe557.gif)](https://gyazo.com/765ed2c2fb0df8c6b598db08eb6fe557)
+
+## 新規登録
 [![Image from Gyazo](https://i.gyazo.com/8e82e85e7af0591ea4307f96a6146564.gif)](https://gyazo.com/8e82e85e7af0591ea4307f96a6146564)
 
-## ユーザーログイン
+## ログイン
 [![Image from Gyazo](https://i.gyazo.com/5c7255b1116f433b2a3dfcb355ed5fec.gif)](https://gyazo.com/5c7255b1116f433b2a3dfcb355ed5fec)
 
-## ユーザープロフィール表示
+## プロフィール表示
 [![Image from Gyazo](https://i.gyazo.com/927c24d3f9e7a05db255e5fdec3b5093.gif)](https://gyazo.com/927c24d3f9e7a05db255e5fdec3b5093)
 
-## ユーザープロフィール編集
+## ログアウト
+[![Image from Gyazo](https://i.gyazo.com/263966463aa49f5a8cf4ecab4a43af43.gif)](https://gyazo.com/263966463aa49f5a8cf4ecab4a43af43)
+
+## プロフィール編集
 [![Image from Gyazo](https://i.gyazo.com/69fc951352fb672b183a1f432fca3080.gif)](https://gyazo.com/69fc951352fb672b183a1f432fca3080)
 
 ## ユーザー検索機能
@@ -145,7 +151,7 @@ http://35.73.106.104:3001/
 [![Image from Gyazo](https://i.gyazo.com/541d87840c3c382e932febde46ac13fc.gif)](https://gyazo.com/541d87840c3c382e932febde46ac13fc)
 
 ## 投稿詳細
-
+![671c9a643aa1cc3f20650388922dffed](https://user-images.githubusercontent.com/82750792/122700614-9a3be800-d286-11eb-95ae-374753e013f5.gif)
 
 ## 新規投稿
 [![Image from Gyazo](https://i.gyazo.com/b754a65ec472b7ec2daa8f044ee86e38.gif)](https://gyazo.com/b754a65ec472b7ec2daa8f044ee86e38)
