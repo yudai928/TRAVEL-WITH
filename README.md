@@ -157,7 +157,7 @@ http://35.73.106.104:3001/
 [![Image from Gyazo](https://i.gyazo.com/72a6b65c6487247fe2dea220ed3aa238.gif)](https://gyazo.com/72a6b65c6487247fe2dea220ed3aa238)
 
 ## タグ絞り込み機能
-[![Image from Gyazo](https://i.gyazo.com/8191a142420d39bce263db09f1e1c9b3.gif)](https://gyazo.com/8191a142420d39bce263db09f1e1c9b3)
+[![Image from Gyazo](https://i.gyazo.com/a8eca9d25fc14c7d8e91b0bf769ab289.gif)](https://gyazo.com/a8eca9d25fc14c7d8e91b0bf769ab289)
 
 ## いいね機能
 [![Image from Gyazo](https://i.gyazo.com/0e33f0527b38f41fd570dc5fd825ea28.gif)](https://gyazo.com/0e33f0527b38f41fd570dc5fd825ea28)
