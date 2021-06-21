@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   controllers: { registrations: 'registrations' } 
 
   root 'top#index'
+  post '/top/guest_sign_in', to: 'top#guest_sign_in'
 
   resources :users, only: [:show]
 

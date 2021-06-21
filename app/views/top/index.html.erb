@@ -5,6 +5,7 @@
       <strong>TRAVEL WITH</strong></a>
       <div class="navbar__sign-in-btn-user">
         <%= link_to "ログイン", new_user_session_path, class: "btn btn-light sign-in-user" %>
+        <%= link_to 'ゲストログイン（閲覧用）', top_guest_sign_in_path, class: "btn btn-light sign-in-user", method: :post %>
       </div>
     </nav>
   </div>
