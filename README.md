@@ -126,7 +126,7 @@ http://35.73.106.104:3001/
 
 # 実施した機能のGIF
 ## トップページ
-[![Image from Gyazo](https://i.gyazo.com/765ed2c2fb0df8c6b598db08eb6fe557.gif)](https://gyazo.com/765ed2c2fb0df8c6b598db08eb6fe557)
+[![Image from Gyazo](https://i.gyazo.com/50279ee0dc5d966df2aebb277d7f562a.gif)](https://gyazo.com/50279ee0dc5d966df2aebb277d7f562a)
 
 ## 新規登録
 [![Image from Gyazo](https://i.gyazo.com/8e82e85e7af0591ea4307f96a6146564.gif)](https://gyazo.com/8e82e85e7af0591ea4307f96a6146564)
